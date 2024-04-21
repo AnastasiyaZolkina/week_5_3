@@ -1,0 +1,118 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 240, 247);
+    padding: 20px 10px;
+}
+.menu {
+    color: #103A58;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'LT Funk', 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.menu:hover {
+    color: black;
+    text-decoration-line: underline;
+}
+.main_page{
+    height: 30vh;
+    background-color: rgb(191, 240, 247);
+    display: flex;
+    column-gap: 30px;
+    padding: 10px;
+}
+.box1, .box2, .box3, .box4, .box5{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.box1::after{
+content: "Ковёр-самолёт";
+position: absolute;
+left: 0;
+top: 100%;
+background-color: rgb(104, 104, 211);
+padding: 10px;
+border-radius: 10px;
+color: azure;
+opacity: 0;
+visibility: hidden;
+}
+.box1:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+.box2::after{
+    content: "Лампа Аладдина";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(104, 104, 211);
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    opacity: 0;
+    visibility: hidden;
+}
+.box2:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+.box3::after{
+    content: "Волшебная палочка";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(104, 104, 211);
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    opacity: 0;
+    visibility: hidden;
+}
+.box3:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+.box4::after{
+    content: "Магический эликсир";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(104, 104, 211);
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    opacity: 0;
+    visibility: hidden;
+}
+.box4:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+.box5::after{
+    content: "Книга заклинаний";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(104, 104, 211);
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    opacity: 0;
+    visibility: hidden;
+}
+.box5:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+.page_name{
+    font-family: 'LT Funk', 'Arial', 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
